@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Mike Rahne 
+# DATE: 10/6/2025
+# BRIEF DESCRIPTION: My convert_C_to_F_02 submission  
 
 
 
@@ -16,7 +16,32 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+def main():
+    convert_C_F_02()
+def convert_C_F_02():
 
+#                  celsius = input("Enter a temperature in Celsius: ")
+#                  print()
+#                  print (f'{float(celsius)} degrees Celsius is {float(celsius)* 9/5 + 32} degrees Fahrenheit.')
+
+                print('===== Temperature Converter =====')
+                print()
+                print('  1. Convert from Celsius to Fahrenheit')
+                print('  2. Convert from Fahrenheit to Celsius')
+                print()  
+                choice = input('Please choose from the above menu: ')
+
+                if choice == '1':
+                        celsius = input('Enter a temperature to convert: ')
+                        print()
+                        print (f'{float(celsius)} degrees Celsius is {float(celsius)* 9/5 + 32} degrees Fahrenheit.')
+                elif choice == '2':
+                        fahrenheit = input('Enter a temperature to convert: ')
+                        print()
+                        print (f'{float(fahrenheit)} degrees Fahrenheit is {(float(fahrenheit)-32) * 5/9:.1f} degrees Celsius.')
+
+
+main()
 
 
 
@@ -92,6 +117,10 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
+
+# I actually learned 2. 
+# 1) Always make sure to close out your "def" or your code won't work and you'll waste a lot of time wondering what is going on
+# 2) Make sure you label your code properly so you can find code that you might want to use or use part of/slightly alter for a different project
 
 
 
